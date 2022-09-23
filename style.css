@@ -1,0 +1,57 @@
+.post {
+    border: 5px solid;
+    margin: 15px;
+}
+
+.container{
+    border: 5px solid;
+    margin: 5px;
+    display: inline-flex;
+    width: 95%;
+}
+.image {
+height: 100%;
+width: 100%;
+align-content: center;
+justify-content: center;
+margin: 5px 5px 5px 5px;
+}
+.title {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-wrap: row nowrap ;
+}
+.more > * {
+    height: 100%;
+    align-content: right;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 30px;
+}
+.text {
+    width: 95%;
+    height: 5vh;
+    display: inline-flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-content: center;
+}
+.actions-l {
+    height: 20px;
+    width: 100%;
+    font-size: 20px;
+    display: inline-flex;
+    flex-flow: row nowrap;
+    padding-left: 5px;
+    }
+
+.actions-r {
+height: 30px;
+width: 100%;
+font-size: 20px;
+display: inline-flex;
+flex-flow: row nowrap;
+justify-content: flex-end;
+align-content: right;
+}
