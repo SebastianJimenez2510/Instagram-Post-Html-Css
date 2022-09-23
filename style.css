@@ -1,20 +1,25 @@
 .post {
     border: 5px solid;
-    margin: 15px;
+    margin: 1rem auto;
+    width: 50%;
+    text-align: center;
 }
 
 .container{
-    border: 5px solid;
-    margin: 5px;
-    display: inline-flex;
+    margin: 5px auto;
+    display: flex;
     width: 95%;
+    justify-content: space-between;
 }
+img {
+    width: 95%;
+    align-content: center;
+    justify-content: center;
+    margin: 5px ;
+    }
 .image {
-height: 100%;
-width: 100%;
 align-content: center;
 justify-content: center;
-margin: 5px 5px 5px 5px;
 }
 .title {
     width: 80%;
@@ -22,7 +27,7 @@ margin: 5px 5px 5px 5px;
     display: flex;
     flex-wrap: row nowrap ;
 }
-.more > * {
+.more  {
     height: 100%;
     align-content: right;
     display: flex;
@@ -31,9 +36,7 @@ margin: 5px 5px 5px 5px;
 }
 .text {
     width: 95%;
-    height: 5vh;
-    display: inline-flex;
-    flex-flow: row nowrap;
+    display: inline-block;
     justify-content: space-between;
     align-content: center;
 }
@@ -41,17 +44,37 @@ margin: 5px 5px 5px 5px;
     height: 20px;
     width: 100%;
     font-size: 20px;
-    display: inline-flex;
     flex-flow: row nowrap;
-    padding-left: 5px;
     }
-
-.actions-r {
-height: 30px;
-width: 100%;
-font-size: 20px;
-display: inline-flex;
-flex-flow: row nowrap;
-justify-content: flex-end;
-align-content: right;
+.float-right {
+    float:right; 
 }
+.float-left {
+    float:left; 
+}
+.pl-5 {
+   padding-left: 5px; 
+}
+.pr-5 {
+    padding-right: 5px; 
+ }
+ .text-start {
+    text-align: start;
+ }
+ .fs-50{
+    font-size: 50px;
+ }
+ .usuario{
+    display: flex;
+ }
+ .icon{
+    margin: auto;
+    padding: 1rem;
+ }
+ .m-0{
+    margin: 0;
+ }
+ h2 {
+    margin: 15px 0 0 0;
+ }
+        
